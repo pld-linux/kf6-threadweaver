@@ -1,18 +1,18 @@
 #
 # Conditional build:
 %bcond_with	tests		# build with tests
-%define		kdeframever	6.24
+%define		kdeframever	6.25
 %define		qtver		5.15.2
 %define		kfname		threadweaver
 
 Summary:	Helper for multithreaded programming
 Name:		kf6-%{kfname}
-Version:	6.24.0
-Release:	2
+Version:	6.25.0
+Release:	1
 License:	LGPL v2.1+
 Group:		X11/Libraries
 Source0:	https://download.kde.org/stable/frameworks/%{kdeframever}/%{kfname}-%{version}.tar.xz
-# Source0-md5:	cb583dbbbb8ab0b1ca425d95ad289039
+# Source0-md5:	d3483fe4cce842c121ae412ca239dfc6
 URL:		http://www.kde.org/
 BuildRequires:	Qt6Core-devel >= %{qtver}
 BuildRequires:	Qt6Test-devel >= %{qtver}
