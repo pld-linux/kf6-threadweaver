@@ -43,6 +43,16 @@ See the information on [use cases](@ref usecases) and [why
 multithreading can help](@ref multithreading), as well as the usage
 section below, for more detailed information.
 
+%description -l pl.UTF-8
+ThreadWeawer jest pomocny przy programowaniu wielowątkowym. Używa
+interfejsu opartego na zadaniach (job-based), żeby kolejkować zadania
+i wykonywać je wydajnie.
+
+Po prostu dzielisz to co jest do wykonania na zadania, zaznaczasz
+zaleźności między nimi i ThreadWeaver wykona pracę w optymalny sposób
+dzieląc zadania między wątki, mieszcząc się w ramach nałożonych
+ograniczeń na zasoby.
+
 %package devel
 Summary:	Header files for %{kfname} development
 Summary(pl.UTF-8):	Pliki nagłówkowe dla programistów używających %{kfname}
